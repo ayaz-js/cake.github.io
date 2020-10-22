@@ -44,7 +44,7 @@ body {
 
 .header__nav-link {
   margin-right: 15px;
-  font-size: 3.65px;
+  font-size: 16px;
   text-transform: uppercase;
   text-decoration: underline;
 }
@@ -156,5 +156,9 @@ body {
 .info__element-right {
   position: absolute;
   right: 0;
+}
+
+.cake__container {
+  max-width: 975px;
 }
 /*# sourceMappingURL=style.css.map */
