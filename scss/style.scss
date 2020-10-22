@@ -86,6 +86,7 @@ body {
     &__box {
         position: relative;
         padding-left: 27px;
+
         &::after {
             content: '';
             position: absolute;
@@ -122,6 +123,7 @@ body {
         font-size: 16px;
         width: 490px;
     }
+
     &__element-left {
         margin-top: 70px;
     }
@@ -150,8 +152,122 @@ body {
 }
 
 .cake {
-   
+    position: relative;
+    background: #f25c00;
+    height: 3000px;
+
     &__container {
         max-width: 975px;
+        margin: 0 auto;
+    }
+
+    &__box {
+        position: relative;
+        text-align: center;
+    }
+
+    &__button {
+        position: absolute;
+        text-transform: uppercase;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 50px;
+        background-color: #fff;
+        width: 450px;
+        height: 90px;
+        border: none;
+        color: #f25c00;
+        font-size: 30px;
+        font-weight: 900;
+        margin-top: 140px;
+        transition: 0.5s ease;
+        z-index: 2;
+
+        &:hover {
+            box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+            cursor: pointer;
+        }
+    }
+
+    &__wrapper {
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 175px;
+    }
+
+    &__item {
+        background-color: #fff;
+        border: 3px solid #f25c00;
+        border-radius: 50px;
+        width: 145px;
+        height: 38px;
+    }
+
+    &__img-gift-1 {
+        position: absolute;
+        margin-top: 93px;
+        right: -40px;
+        opacity: 0.5;
+    }
+
+    &__img-gift-2 {
+        position: absolute;
+        margin-top: 60px;
+        left: -110px;
+        opacity: 0.5;
+    }
+
+    &__title {
+        font-size: 40px;
+        font-weight: 600;
+        text-align: center;
+        color: #fff;
+        margin-top: 177px;
+        line-height: 0.7;
+
+        span {
+            font-size: 30px;
+            font-weight: 30;
+        }
+    }
+
+    &__list {
+        position: relative;
+        margin: 0 auto;
+        margin-top: 130px;
+        max-width: 708px;
+
+        &:after {
+            content: '';
+            display: block;
+            margin: 0 auto;
+            margin-top: 130px;
+            background: #Fff;
+            width: 535px;
+            height: 5px;
+        }
+    }
+
+    &__list-item {
+        color: #fff;
+        font-size: 30px;
+    }
+
+    &__list-gift {
+        margin-top: 60px;
+    }
+    &__img-gift-3 {
+        position: absolute;
+        margin-top: 155px;
+        left: -120px;
+        opacity: 0.5;
+    }
+    &__img-gift-4 {
+        position: absolute;
+        margin-top: 155px;
+        right: -155px;
+        opacity: 0.5;
     }
 }
