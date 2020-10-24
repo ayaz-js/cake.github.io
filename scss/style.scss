@@ -9,6 +9,7 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .container {
@@ -112,6 +113,9 @@ body {
     &__feature-title {
         font-weight: 300 !important;
     }
+    &__features {
+        position: relative;
+    }
 
     &__subtitle {
         margin-top: 45px;
@@ -147,14 +151,18 @@ body {
 
     &__element-right {
         position: absolute;
-        right: 0;
+        right: -130px;
     }
 }
 
 .cake {
-    position: relative;
+    position: absolute;
     background: #f25c00;
-    height: 2600px;
+    width: 3000px;
+    height: 2750px;
+    border-radius: 50%;
+    left: 50%;
+    transform: translate(-50%);
 
     &__container {
         max-width: 975px;
@@ -164,6 +172,9 @@ body {
     &__box {
         position: relative;
         text-align: center;
+        img {
+            margin-top: 90px;
+        }
     }
 
     &__button {
@@ -185,7 +196,7 @@ body {
         z-index: 2;
 
         &:hover {
-            box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
             cursor: pointer;
         }
     }
@@ -278,5 +289,13 @@ body {
         margin-top: 155px;
         right: -155px;
         opacity: 0.5;
+    }
+    &__facts-title {
+        margin-top: 80px;
+        text-transform: uppercase;
+    }
+    &__facts-img {
+        text-align: center;
+        margin-top: 65px;
     }
 }

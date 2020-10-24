@@ -9,6 +9,7 @@
 
 body {
   font-family: 'Open Sans', sans-serif;
+  overflow-x: hidden;
 }
 
 .container {
@@ -121,6 +122,10 @@ body {
   font-weight: 300 !important;
 }
 
+.info__features {
+  position: relative;
+}
+
 .info__subtitle {
   margin-top: 45px;
   font-weight: 600;
@@ -155,13 +160,18 @@ body {
 
 .info__element-right {
   position: absolute;
-  right: 0;
+  right: -130px;
 }
 
 .cake {
-  position: relative;
+  position: absolute;
   background: #f25c00;
-  height: 2600px;
+  width: 3000px;
+  height: 2750px;
+  border-radius: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
 }
 
 .cake__container {
@@ -172,6 +182,10 @@ body {
 .cake__box {
   position: relative;
   text-align: center;
+}
+
+.cake__box img {
+  margin-top: 90px;
 }
 
 .cake__button {
@@ -196,8 +210,8 @@ body {
 }
 
 .cake__button:hover {
-  -webkit-box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
+          box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
   cursor: pointer;
 }
 
@@ -296,5 +310,15 @@ body {
   margin-top: 155px;
   right: -155px;
   opacity: 0.5;
+}
+
+.cake__facts-title {
+  margin-top: 80px;
+  text-transform: uppercase;
+}
+
+.cake__facts-img {
+  text-align: center;
+  margin-top: 65px;
 }
 /*# sourceMappingURL=style.css.map */
