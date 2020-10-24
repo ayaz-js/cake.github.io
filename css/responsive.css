@@ -1,0 +1,73 @@
+@media screen and (max-width: 1200px) {
+  .cake__img-gift-2 {
+    left: -60px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .facts__arrow {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1110px) {
+  .info__element-right {
+    right: -60px;
+  }
+  .cake__img-gift-2 {
+    left: -40px;
+    width: 280px;
+  }
+}
+
+@media screen and (max-width: 1090px) {
+  .info__element-right {
+    right: -40px;
+  }
+}
+
+@media screen and (max-width: 1055px) {
+  .info__element-right {
+    right: -30px;
+  }
+  .cake__img-gift-1 {
+    right: -25px;
+  }
+  .cake__img-gift-2 {
+    left: -20px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 1035px) {
+  .facts__element-left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1027px) {
+  .cake__img-gift-1 {
+    right: -10px;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  .cake__img-gift-2 {
+    left: -10px;
+    width: 250px;
+  }
+  .cake__img-gift-4 {
+    right: -130px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .cake__img-gift-1 {
+    right: 0px;
+  }
+  .cake__img-gift-2 {
+    left: 0px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */

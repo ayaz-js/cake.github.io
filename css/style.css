@@ -431,4 +431,8 @@ body {
 .gift__banner {
   margin-top: 30px;
 }
+
+.gift__banner:hover {
+  cursor: pointer;
+}
 /*# sourceMappingURL=style.css.map */
