@@ -298,4 +298,9 @@ body {
         text-align: center;
         margin-top: 65px;
     }
+    &__elements {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 }
