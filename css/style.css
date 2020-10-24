@@ -161,7 +161,7 @@ body {
 .cake {
   position: relative;
   background: #f25c00;
-  height: 3000px;
+  height: 2600px;
 }
 
 .cake__container {
@@ -258,7 +258,7 @@ body {
   content: '';
   display: block;
   margin: 0 auto;
-  margin-top: 130px;
+  margin-top: 135px;
   background: #Fff;
   width: 535px;
   height: 5px;
@@ -266,11 +266,22 @@ body {
 
 .cake__list-item {
   color: #fff;
-  font-size: 30px;
+  font-size: 22px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 40px;
 }
 
-.cake__list-gift {
-  margin-top: 60px;
+.cake__list-item:nth-last-child(-n+1) {
+  margin-bottom: 0;
+}
+
+.cake__list-item img {
+  margin-right: 20px;
 }
 
 .cake__img-gift-3 {

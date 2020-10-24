@@ -154,7 +154,7 @@ body {
 .cake {
     position: relative;
     background: #f25c00;
-    height: 3000px;
+    height: 2600px;
 
     &__container {
         max-width: 975px;
@@ -243,7 +243,7 @@ body {
             content: '';
             display: block;
             margin: 0 auto;
-            margin-top: 130px;
+            margin-top: 135px;
             background: #Fff;
             width: 535px;
             height: 5px;
@@ -252,18 +252,27 @@ body {
 
     &__list-item {
         color: #fff;
-        font-size: 30px;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 40px;
+
+        &:nth-last-child(-n+1) {
+            margin-bottom: 0;
+        }
+
+        img {
+            margin-right: 20px;
+        }
     }
 
-    &__list-gift {
-        margin-top: 60px;
-    }
     &__img-gift-3 {
         position: absolute;
         margin-top: 155px;
         left: -120px;
         opacity: 0.5;
     }
+
     &__img-gift-4 {
         position: absolute;
         margin-top: 155px;
