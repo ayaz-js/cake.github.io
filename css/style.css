@@ -17,6 +17,19 @@ body {
   margin: 0 auto;
 }
 
+.title {
+  text-transform: uppercase;
+  color: #f25c00;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.title span {
+  font-size: 30px;
+  font-weight: 300;
+}
+
 .header {
   position: relative;
   background: #f25c00;
@@ -164,9 +177,14 @@ body {
 }
 
 .cake {
+  position: relative;
+  height: 2800px;
+}
+
+.cake__background {
   position: absolute;
   background: #f25c00;
-  width: 3000px;
+  width: 3500px;
   height: 2750px;
   border-radius: 50%;
   left: 50%;
@@ -248,17 +266,8 @@ body {
 }
 
 .cake__title {
-  font-size: 40px;
-  font-weight: 600;
-  text-align: center;
   color: #fff;
   margin-top: 177px;
-  line-height: 0.7;
-}
-
-.cake__title span {
-  font-size: 30px;
-  font-weight: 30;
 }
 
 .cake__list {
@@ -312,9 +321,13 @@ body {
   opacity: 0.5;
 }
 
+.cake__facts {
+  position: relative;
+}
+
 .cake__facts-title {
   margin-top: 80px;
-  text-transform: uppercase;
+  color: #fff;
 }
 
 .cake__facts-img {
@@ -323,6 +336,9 @@ body {
 }
 
 .cake__elements {
+  position: absolute;
+  top: 70%;
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -332,5 +348,87 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.facts {
+  margin-top: 130px;
+}
+
+.facts__counter {
+  color: #f25c00;
+  font-size: 26px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.facts__slider {
+  position: relative;
+  margin-top: 45px;
+}
+
+.facts__slider:after {
+  content: '';
+  display: block;
+  margin: 0 auto;
+  margin-top: 92px;
+  background: #f25c00;
+  width: 533px;
+  height: 5px;
+}
+
+.facts__arrow {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.facts__text {
+  width: 560px;
+  margin: 0 auto;
+  color: #f25c00;
+  font-size: 26px;
+  text-align: center;
+}
+
+.facts__element-left {
+  position: absolute;
+  right: 0;
+}
+
+.gift {
+  margin-top: 97px;
+  margin-bottom: 80px;
+}
+
+.gift__container {
+  position: relative;
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.gift__element-left {
+  position: absolute;
+  top: 7%;
+  left: 0;
+}
+
+.gift__box {
+  margin-top: 110px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.gift__banner {
+  margin-top: 30px;
 }
 /*# sourceMappingURL=style.css.map */
