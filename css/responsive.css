@@ -163,4 +163,10 @@
     margin-top: 170px;
   }
 }
+
+@media screen and (max-width: 605px) {
+  .header__element-left {
+    display: none;
+  }
+}
 /*# sourceMappingURL=responsive.css.map */
