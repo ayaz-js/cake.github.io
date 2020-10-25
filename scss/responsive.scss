@@ -81,6 +81,7 @@
     .cake__img-gift-1 {
         right: 45px;
     }
+
     .cake__img-gift-2 {
         left: 20px;
     }
@@ -145,30 +146,106 @@
     .cake__item {
         margin-top: 20px;
     }
+
     .cake__img-gift-1 {
         right: 55px;
     }
+
     .cake__img-gift-2 {
         left: 55px;
     }
+
     .cake__img-gift-3 {
         left: -90px;
     }
+
     .cake__img-gift-4 {
         right: -90px;
         top: 80%;
     }
+
     .cake__facts-title {
         margin-top: 30px;
     }
+
     .cake__facts-img {
         margin-top: 0;
     }
+
     .cake__elements {
         display: none;
     }
+
     .facts {
         margin-top: 170px;
+    }
+}
+
+@media screen and (max-width: 890px) {
+    .cake__img-gift-3 {
+        left: -60px;
+    }
+
+    .cake__img-gift-4 {
+        right: -60px;
+        top: 80%;
+        width: 180px;
+    }
+}
+
+@media screen and (max-width: 867px) {
+    .cake__img-gift-1 {
+        right: 90px;
+    }
+
+    .cake__img-gift-2 {
+        left: 90px;
+    }
+}
+
+@media screen and (max-width: 830px) {
+    .cake__img-gift-3 {
+        left: -20px;
+    }
+
+    .cake__img-gift-4 {
+        right: -30px;
+        top: 83%;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 796px) {
+    .cake__img-gift-1 {
+        right: 160px;
+    }
+
+    .cake__img-gift-2 {
+        left: 110px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .cake__img-gift-3 {
+        left: -10px;
+    }
+
+    .cake__img-gift-4 {
+        right: -10px;
+        top: 83%;
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .cake__img-gift-2 {
+        left: 145px;
+    }
+}
+
+@media screen and (max-width: 677px) {
+    .header__logo {
+        width: 80%;
     }
 }
 
@@ -177,3 +254,4 @@
         display: none;
     }
 }
+
