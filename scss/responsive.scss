@@ -75,3 +75,15 @@
         left: 0px;
     }
 }
+
+@media screen and (max-width: 960px) {
+    .cake__img-gift-1 {
+        right: 10px;
+    }
+    .cake__img-gift-2 {
+        right: 15px;
+    }
+    .cake__img-gift-4 {
+        right: -115px;
+    }
+}
