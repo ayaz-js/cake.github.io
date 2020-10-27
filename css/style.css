@@ -19,7 +19,7 @@ body {
 
 .title {
   text-transform: uppercase;
-  color: #f25c00;
+  color: #ff6029;
   text-align: center;
   font-size: 40px;
   font-weight: 600;
@@ -32,7 +32,7 @@ body {
 
 .header {
   position: relative;
-  background: #f25c00;
+  background: #ff6029;
 }
 
 .header__container {
@@ -97,12 +97,7 @@ body {
 .info__container {
   max-width: 975px;
   margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  text-align: center;
 }
 
 .info__box {
@@ -112,17 +107,17 @@ body {
 
 .info__box::after {
   content: '';
-  position: absolute;
-  width: 4px;
-  height: 295px;
-  background: #f25c00;
-  top: 0;
-  right: -45px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 35px;
+  width: 100%;
+  height: 4px;
+  background: #ff6029;
 }
 
 .info__title {
   text-transform: uppercase;
-  color: #f25c00;
+  color: #ff6029;
   font-size: 40px;
   font-weight: 600;
 }
@@ -137,16 +132,18 @@ body {
 
 .info__features {
   position: relative;
+  margin-top: 35px;
 }
 
 .info__subtitle {
+  font-size: 26px;
   margin-top: 45px;
   font-weight: 600;
 }
 
 .info__text {
   margin-top: 30px;
-  font-size: 16px;
+  font-size: 26px;
 }
 
 .info__element-left {
@@ -154,7 +151,11 @@ body {
 }
 
 .info__list {
-  margin-top: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   font-size: 26px;
   font-weight: 500;
 }
@@ -165,24 +166,20 @@ body {
 
 .info__item:before {
   content: '+';
-  color: #f25c00;
+  color: #ff6029;
   font-weight: 600;
   margin-right: 15px;
 }
 
-.info__element-right {
-  position: absolute;
-  right: -130px;
-}
-
 .cake {
   position: relative;
+  margin-top: 55px;
   height: 2800px;
 }
 
 .cake__background {
   position: absolute;
-  background: #f25c00;
+  background: #ff6029;
   width: 3500px;
   height: 2750px;
   border-radius: 50%;
@@ -205,63 +202,16 @@ body {
   margin-top: 90px;
 }
 
-.cake__button {
-  position: absolute;
-  text-transform: uppercase;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  border-radius: 50px;
-  background-color: #fff;
-  width: 450px;
-  height: 90px;
-  border: none;
-  color: #f25c00;
-  font-size: 30px;
-  font-weight: 900;
-  margin-top: 140px;
-  -webkit-transition: 0.5s ease;
-  transition: 0.5s ease;
-  z-index: 2;
-}
-
-.cake__button:hover {
-  -webkit-box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
-          box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
-}
-
 .cake__wrapper {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  margin-top: 175px;
-}
-
-.cake__item {
-  background-color: #fff;
-  border: 3px solid #f25c00;
-  border-radius: 50px;
-  width: 145px;
-  height: 38px;
-}
-
-.cake__img-gift-1 {
-  position: absolute;
-  margin-top: 93px;
-  right: -40px;
-  opacity: 0.5;
-}
-
-.cake__img-gift-2 {
-  position: absolute;
-  margin-top: 60px;
-  left: -110px;
-  opacity: 0.5;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .cake__title {
@@ -270,17 +220,14 @@ body {
 }
 
 .cake__list {
-  position: relative;
-  margin: 0 auto;
   margin-top: 130px;
-  max-width: 708px;
 }
 
 .cake__list:after {
   content: '';
   display: block;
   margin: 0 auto;
-  margin-top: 135px;
+  margin-top: 100px;
   background: #Fff;
   width: 535px;
   height: 5px;
@@ -304,20 +251,6 @@ body {
 
 .cake__list-item img {
   margin-right: 20px;
-}
-
-.cake__img-gift-3 {
-  position: absolute;
-  margin-top: 155px;
-  left: -120px;
-  opacity: 0.5;
-}
-
-.cake__img-gift-4 {
-  position: absolute;
-  margin-top: 155px;
-  right: -155px;
-  opacity: 0.5;
 }
 
 .cake__facts {
@@ -354,7 +287,7 @@ body {
 }
 
 .facts__counter {
-  color: #f25c00;
+  color: #ff6029;
   font-size: 26px;
   font-weight: 600;
   text-align: center;
@@ -370,7 +303,7 @@ body {
   display: block;
   margin: 0 auto;
   margin-top: 92px;
-  background: #f25c00;
+  background: #ff6029;
   width: 533px;
   height: 5px;
 }
@@ -387,7 +320,7 @@ body {
 }
 
 .facts__text {
-  color: #f25c00;
+  color: #ff6029;
   font-size: 26px;
   text-align: center;
 }

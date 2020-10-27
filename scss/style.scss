@@ -19,21 +19,21 @@ body {
 
 .title {
     text-transform: uppercase;
-    color: #f25c00;
+    color: #ff6029;
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    
+
     span {
         font-size: 30px;
         font-weight: 300;
     }
-    
+
 }
 
 .header {
     position: relative;
-    background: #f25c00;
+    background: #ff6029;
 
     &__container {
         max-width: 975px;
@@ -58,10 +58,6 @@ body {
             color: #fff;
         }
     }
-
-    // &__phone {
-
-    // }
 
     &__phone-icon {
         margin-right: 13px;
@@ -94,8 +90,7 @@ body {
     &__container {
         max-width: 975px;
         margin: 0 auto;
-        display: flex;
-        justify-content: space-between;
+        text-align: center;
     }
 
     &__box {
@@ -104,18 +99,18 @@ body {
 
         &::after {
             content: '';
-            position: absolute;
-            width: 4px;
-            height: 295px;
-            background: #f25c00;
-            top: 0;
-            right: -45px;
+            display: block;
+            margin: 0 auto;
+            margin-top: 35px;
+            width: 100%;
+            height: 4px;
+            background: #ff6029;
         }
     }
 
     &__title {
         text-transform: uppercase;
-        color: #f25c00;
+        color: #ff6029;
         font-size: 40px;
         font-weight: 600;
 
@@ -130,16 +125,18 @@ body {
 
     &__features {
         position: relative;
+        margin-top: 35px;
     }
 
     &__subtitle {
+        font-size: 26px;
         margin-top: 45px;
         font-weight: 600;
     }
 
     &__text {
         margin-top: 30px;
-        font-size: 16px;
+        font-size: 26px;
     }
 
     &__element-left {
@@ -147,7 +144,8 @@ body {
     }
 
     &__list {
-        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
         font-size: 26px;
         font-weight: 500;
     }
@@ -157,25 +155,21 @@ body {
 
         &:before {
             content: '+';
-            color: #f25c00;
+            color: #ff6029;
             font-weight: 600;
             margin-right: 15px;
         }
-    }
-
-    &__element-right {
-        position: absolute;
-        right: -130px;
     }
 }
 
 .cake {
     position: relative;
+    margin-top: 55px;
     height: 2800px;
 
     &__background {
         position: absolute;
-        background: #f25c00;
+        background: #ff6029;
         width: 3500px;
         height: 2750px;
         border-radius: 50%;
@@ -197,57 +191,12 @@ body {
         }
     }
 
-    &__button {
-        position: absolute;
-        text-transform: uppercase;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
-        border-radius: 50px;
-        background-color: #fff;
-        width: 450px;
-        height: 90px;
-        border: none;
-        color: #f25c00;
-        font-size: 30px;
-        font-weight: 900;
-        margin-top: 140px;
-        transition: 0.5s ease;
-        z-index: 2;
-
-        &:hover {
-            box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.2);
-            cursor: pointer;
-        }
-    }
-
     &__wrapper {
         position: relative;
         display: flex;
-        justify-content: space-around;
-        margin-top: 175px;
-    }
-
-    &__item {
-        background-color: #fff;
-        border: 3px solid #f25c00;
-        border-radius: 50px;
-        width: 145px;
-        height: 38px;
-    }
-
-    &__img-gift-1 {
-        position: absolute;
-        margin-top: 93px;
-        right: -40px;
-        opacity: 0.5;
-    }
-
-    &__img-gift-2 {
-        position: absolute;
-        margin-top: 60px;
-        left: -110px;
-        opacity: 0.5;
+        align-items: center;
+        text-align: center;
+        margin-top: 50px;
     }
 
     &__title {
@@ -256,16 +205,13 @@ body {
     }
 
     &__list {
-        position: relative;
-        margin: 0 auto;
         margin-top: 130px;
-        max-width: 708px;
 
         &:after {
             content: '';
             display: block;
             margin: 0 auto;
-            margin-top: 135px;
+            margin-top: 100px;
             background: #Fff;
             width: 535px;
             height: 5px;
@@ -286,20 +232,6 @@ body {
         img {
             margin-right: 20px;
         }
-    }
-
-    &__img-gift-3 {
-        position: absolute;
-        margin-top: 155px;
-        left: -120px;
-        opacity: 0.5;
-    }
-
-    &__img-gift-4 {
-        position: absolute;
-        margin-top: 155px;
-        right: -155px;
-        opacity: 0.5;
     }
 
     &__facts {
@@ -330,7 +262,7 @@ body {
     margin-top: 130px;
 
     &__counter {
-        color: #f25c00;
+        color: #ff6029;
         font-size: 26px;
         font-weight: 600;
         text-align: center;
@@ -345,7 +277,7 @@ body {
             display: block;
             margin: 0 auto;
             margin-top: 92px;
-            background: #f25c00;
+            background: #ff6029;
             width: 533px;
             height: 5px;
         }
@@ -360,11 +292,12 @@ body {
     }
 
     &__text {
-        
-        color: #f25c00;
+
+        color: #ff6029;
         font-size: 26px;
         text-align: center;
     }
+
     &__element-left {
         position: absolute;
         right: 0;
@@ -374,11 +307,11 @@ body {
 .gift {
     margin-top: 97px;
     margin-bottom: 80px;
-    
+
     &__container {
         position: relative;
         max-width: 975px;
-        margin: 0 auto;  
+        margin: 0 auto;
     }
 
     &__element-left {
@@ -386,14 +319,17 @@ body {
         top: 7%;
         left: 0;
     }
+
     &__box {
         margin-top: 110px;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-around;
     }
+
     &__banner {
         margin-top: 30px;
+
         &:hover {
             cursor: pointer;
         }

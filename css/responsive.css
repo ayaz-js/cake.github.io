@@ -1,10 +1,3 @@
-@media screen and (max-width: 1200px) {
-  .cake__img-gift-2 {
-    left: -60px;
-    width: 280px;
-  }
-}
-
 @media screen and (max-width: 1199px) {
   .facts__arrow {
     display: none;
@@ -14,10 +7,6 @@
 @media screen and (max-width: 1110px) {
   .info__element-right {
     right: -60px;
-  }
-  .cake__img-gift-2 {
-    left: -40px;
-    width: 280px;
   }
 }
 
@@ -31,52 +20,11 @@
   .info__element-right {
     right: -30px;
   }
-  .cake__img-gift-1 {
-    right: -25px;
-  }
-  .cake__img-gift-2 {
-    left: -20px;
-    width: 270px;
-  }
 }
 
 @media screen and (max-width: 1035px) {
   .facts__element-left {
     display: none;
-  }
-}
-
-@media screen and (max-width: 1027px) {
-  .cake__img-gift-1 {
-    right: -10px;
-  }
-}
-
-@media screen and (max-width: 1020px) {
-  .cake__img-gift-2 {
-    left: -10px;
-    width: 250px;
-  }
-  .cake__img-gift-4 {
-    right: -130px;
-  }
-}
-
-@media screen and (max-width: 1000px) {
-  .cake__img-gift-1 {
-    right: 0px;
-  }
-  .cake__img-gift-2 {
-    left: 0px;
-  }
-}
-
-@media screen and (max-width: 977px) {
-  .cake__img-gift-1 {
-    right: 45px;
-  }
-  .cake__img-gift-2 {
-    left: 20px;
   }
 }
 
@@ -103,15 +51,6 @@
   .cake {
     margin-top: 50px;
   }
-  .cake__img-gift-1 {
-    right: 20px;
-  }
-  .cake__img-gift-2 {
-    left: 25px;
-  }
-  .cake__img-gift-4 {
-    right: -115px;
-  }
 }
 
 @media screen and (max-width: 938px) {
@@ -121,16 +60,6 @@
 }
 
 @media screen and (max-width: 920px) {
-  .cake__wrapper {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    margin-top: 50px;
-  }
   .cake__list {
     margin-top: 110px;
   }
@@ -161,57 +90,6 @@
   }
   .facts {
     margin-top: 170px;
-  }
-}
-
-@media screen and (max-width: 890px) {
-  .cake__img-gift-3 {
-    left: -60px;
-  }
-  .cake__img-gift-4 {
-    right: -60px;
-    top: 80%;
-    width: 180px;
-  }
-}
-
-@media screen and (max-width: 867px) {
-  .cake__img-gift-1 {
-    right: 90px;
-  }
-  .cake__img-gift-2 {
-    left: 90px;
-  }
-}
-
-@media screen and (max-width: 830px) {
-  .cake__img-gift-3 {
-    left: -20px;
-  }
-  .cake__img-gift-4 {
-    right: -30px;
-    top: 83%;
-    width: 150px;
-  }
-}
-
-@media screen and (max-width: 796px) {
-  .cake__img-gift-1 {
-    right: 160px;
-  }
-  .cake__img-gift-2 {
-    left: 110px;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  .cake__img-gift-3 {
-    left: -10px;
-  }
-  .cake__img-gift-4 {
-    right: -10px;
-    top: 83%;
-    width: 150px;
   }
 }
 

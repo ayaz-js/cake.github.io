@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
     <title>Cake</title>
@@ -37,16 +39,14 @@
                 <div class="info__subtitle">В честь нашего 18-летия мы дарим подарки <br> за каждую покупку!</div>
                 <div class="info__text">Делайте покупки на сайте technodom.kz или в розничных <br> магазинах, получайте
                     уникальный код и угощайтесь <br> праздничным тортом с подарочной начинкой.</div>
-                <img src="img/element-wave.png" alt="" class="info__element-left">
             </div>
             <div class="info__features">
-                <div class="info__title info__feature-title">Гуляем <br> весь месяц: </div>
+                <div class="info__title info__feature-title">Гуляем весь месяц:</div>
                 <ul class="info__list">
                     <li class="info__item">Кэшбэк до 18%</li>
                     <li class="info__item">Подарки за покупки</li>
                     <li class="info__item">Рассрочка 0.0.24</li>
                 </ul>
-                <img src="img/element-triangle.png" class="info__element-right">
             </div>
         </div>
     </section>
@@ -55,17 +55,27 @@
             <div class="cake__container">
                 <div class="cake__box">
                     <img src="img/cake_gif.gif" alt="торт">
-                    <button class="cake__button btn">Отерезать кусочек</button>
                 </div>
-                <div class="cake__wrapper">
-                    <div class="cake__item"></div>
-                    <div class="cake__item"></div>
-                    <div class="cake__item"></div>
-                    <div class="cake__item"></div>
-                    <div class="cake__item"></div>
-                    <img src="img/gift-1.png" alt="" class="cake__img-gift-1">
-                    <img src="img/gift-2.png" alt="" class="cake__img-gift-2">
+                <div class="swiper-container">
+                    <div class="cake__wrapper swiper-wrapper">
+                        <div class="cake__item swiper-slide"><img src="img/logo/1.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/2.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/3.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/4.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/5.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/6.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/7.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/8.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/9.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/10.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/11.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/12.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/13.png" alt=""></div>
+                        <div class="cake__item swiper-slide"><img src="img/logo/14.png" alt=""></div>
+                    </div>
                 </div>
+
+
                 <div class="cake__title title">Начинка <br> <span>Праздничного торта</span></div>
                 <div class="cake__list">
 
@@ -82,9 +92,6 @@
                     <div class="cake__list-item"><img src="img/cake-pic-1.png">Пылесосы, утюги, миксеры, блендеры и
                         другие
                         товары для дома и кухни и много посуды</div>
-
-                    <img src="img/gift-3.png" alt="" class="cake__img-gift-3">
-                    <img src="img/gift-4.png" alt="" class="cake__img-gift-4">
                 </div>
                 <div class="cake__facts">
                     <div class="cake__facts-title title">Топ-5 фактов <br> <span>о technodom</span></div>
@@ -124,6 +131,9 @@
             </div>
         </div>
     </section>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
