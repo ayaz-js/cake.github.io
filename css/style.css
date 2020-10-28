@@ -1,4 +1,3 @@
-@import url(../fonts/fonts.css);
 * {
   margin: 0;
   padding: 0;
@@ -174,18 +173,32 @@ body {
 .cake {
   position: relative;
   margin-top: 55px;
-  height: 2800px;
 }
 
-.cake__background {
+.cake::before {
+  content: '';
   position: absolute;
-  background: #ff6029;
-  width: 3500px;
-  height: 2750px;
-  border-radius: 50%;
   left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  top: 0;
+  padding: 85rem;
+  background-color: #ff602a;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, 0);
+          transform: translate(-50%, 0);
+  z-index: -1;
+}
+
+.cake::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 0;
+  padding: 110rem;
+  background-color: #daf5fc;
+  border-radius: 50%;
+  -webkit-transform: translate(-50%, -10%);
+          transform: translate(-50%, -10%);
+  z-index: -10;
 }
 
 .cake__container {
@@ -200,6 +213,8 @@ body {
 
 .cake__box img {
   margin-top: 90px;
+  height: auto;
+  max-width: 100%;
 }
 
 .cake__wrapper {
@@ -235,7 +250,7 @@ body {
 
 .cake__list-item {
   color: #fff;
-  font-size: 22px;
+  font-size: 26px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -249,8 +264,14 @@ body {
   margin-bottom: 0;
 }
 
+.cake__list-item:nth-child(even) img {
+  -webkit-transform: rotate(-25deg);
+          transform: rotate(-25deg);
+}
+
 .cake__list-item img {
   margin-right: 20px;
+  max-height: 80px;
 }
 
 .cake__facts {
@@ -264,7 +285,7 @@ body {
 
 .cake__facts-img {
   text-align: center;
-  margin-top: 65px;
+  margin-top: 100px;
 }
 
 .cake__elements {
@@ -280,10 +301,6 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.facts {
-  margin-top: 130px;
 }
 
 .facts__counter {
