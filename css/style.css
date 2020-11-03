@@ -285,7 +285,7 @@ body {
 
 .cake__facts-img {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 130px;
 }
 
 .cake__elements {
@@ -340,11 +340,6 @@ body {
   color: #ff6029;
   font-size: 26px;
   text-align: center;
-}
-
-.facts__element-left {
-  position: absolute;
-  right: 0;
 }
 
 .gift {
